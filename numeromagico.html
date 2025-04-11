@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Número Mágico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <div class="submenu">
+      <span>Mis Proyectos</span>
+      <div class="dropdown">
+        <a href="index.html">🔮 Número Mágico</a>
+        <a href="../proyecto-final/index.html">🚀 Proyecto Final</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1>🔮 Juego: Número Mágico</h1>
+    <p>Ingresa un número del 1 al 10:</p>
+
+    <input type="number" id="numeroInput" min="1" max="10" placeholder="Tu número...">
+    <button onclick="intentar()">Intentar</button>
+
+    <p id="mensaje"></p>
+    <p id="intentos"></p>
+
+    <button onclick="reiniciar()">🔁 Nuevo Juego</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
